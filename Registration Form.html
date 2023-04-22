@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;   
+        }
+        #declare{
+            text-align:left;
+        }
+        th{
+            text-align: right;
+        }
+        .btn{
+            background-color: blue;
+            color: white;
+        }
+        legend{
+            color: red;
+        }
+        h3{
+            color: red;
+        }
+        form{
+            margin-top: 20px;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center" style="background-color:rgb(6, 189, 196); color: brown;">Individual Registration</h1>
+    <form action="">
+        <fieldset>
+            <legend><b>User Particulars</b></legend>
+            <table align="center" cellpadding="10px">
+                <tr>
+                    <th>Login ID :</th>
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <th>Password : </th>
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <th>Confirm Password :</th>
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+            </table>           
+        </fieldset>
+        <fieldset >
+            <legend><b>Personal Particulars</b></legend>
+            <table align="center" cellspacing="10px" cellpadding="10px">
+            <tr>
+                <th align="right">Salutation</th>
+                    <td><select name=""id="">
+                         <option value="">Mr.</option>
+                         <option value="">Mrs.</option>
+                         <option value="">Miss.</option>
+                </select></td>
+                <th align="right">First Name</th>
+                    <td><input type="text" name="" id=""></td>
+             </tr>
+            <tr>
+                <th align="right">Middle Name</th>
+                    <td><input type="text" name="" id=""></td>
+                <th align="right">Last Name</th>  
+                    <td><input type="text" name="" id=""></td>
+            </tr>        
+            <tr>
+                <th align="right">Resident status</th>
+                    <td><select name="" id="">
+                        <option value="">---select---</option>
+                        <option value="">Correspondence</option>
+                        <option value="">Permanent</option>
+                    </select></td>
+                <th align="right">Country</th>
+                    <td><select name="" id="">
+                        <option value="">---select---</option>
+                        <option value="">India</option>
+                        <option value="">UK</option>
+                        <option value="">US</option>
+                        <option value="">Sri Lanka</option>
+                        <option value="">Myanmar</option>
+                        <option value="">Austrillia</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <th>Email ID</th>
+                    <td><input type="email" name="" id=""></td>
+                <th>Mobile Number</th>
+                    <td><input type="number" name="" id=""></td>
+            </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend><b>Account Particulars</b></legend>
+            <table align="center" cellspacing="10px" cellpadding="10px">
+                <tr>
+                    <th>15 Digit Account No.</th>
+                        <td><input type="number" name="" id=""></td>
+                    <th>Account Holder Name</th>
+                        <td><input type="text" name="" id=""></td>
+                </tr>
+            <br>
+            <br>
+            <tr>
+                <th>Fund Transfer</th>
+                <td><select name="" id="">
+                    <option value="">---select---</option>
+                    <option value="">UPI</option>
+                    <option value="">NEFT</option>
+                    <option value="">RTGS</option>
+                </select></td>
+            </tr>
+            </table>
+            <br>
+            <br>
+                <h3>DECLARATION</h3>
+                <dl id="declare">
+                    <dt>I have Read, Understood and hereby agree to the Terms and Conditions in respect of all products and channels.</dt>
+                    <dt>I understand that any changes in the terms and Conditions applicable to this relationship would be made available to me on request at any IOB branches.I Confirm that all accounts under this login name are operated singly and in case of joint account operated by either or survivor/anyone or survivor(s) under his/her joint name respectively. I do hereby declare that information furnished in this form is True to the best of my knowledge and belief.
+                    </dt>
+                </dl>
+            <table align="center">
+                <tr>
+                    <td>
+                        <input type="submit" value="Submit" class="btn">
+                        <input type="submit" value="Reset" class="btn">
+                    </td>
+                </tr>
+            </table>
+    </form>
+</body>
+</html>
